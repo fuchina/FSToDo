@@ -1,0 +1,7 @@
+platform:ios,'8.2'
+
+target 'FSToDoSample' do
+
+  pod 'FSToDo', :path => '../'
+
+end
