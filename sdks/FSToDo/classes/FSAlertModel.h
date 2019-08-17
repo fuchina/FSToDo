@@ -54,5 +54,11 @@ typedef NS_ENUM(NSInteger, FSWeekdayIndex) {
 + (FSWeekdayIndex)weekIndexForWeekday:(NSInteger)weekday;
 
 + (NSString *)hansForWeekday:(NSInteger)weekday;
++ (NSString *)hansForWeekdays:(NSArray *)weekdays;
+
++ (NSArray *)dbDataForWeekIPs:(NSArray *)ips data:(NSArray *)data;
++ (NSArray *)dbDataForIPs:(NSArray *)ips data:(NSArray *)data;
++ (NSString *)weekTitleForIPs:(NSArray *)data;
++ (NSString *)titleForIPs:(NSArray *)data;
 
 @end
